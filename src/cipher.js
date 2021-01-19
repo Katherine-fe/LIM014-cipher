@@ -28,7 +28,7 @@ const cipher = {
         
       }   
       
-        }return finCifrado
+        }return finCifrado;
   },
     
   decode: (toDecode, offSet) => {
