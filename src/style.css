@@ -1,0 +1,47 @@
+
+body {
+    background-image:url(https://modernmarketingexpo.co.za/wp-content/uploads/Techie-State-Growing-Your-Brand-Through-Social-Media-.jpg);
+    background-size:cover;
+    text-align: center;
+  
+  }
+  
+  .divCuadro {
+  /*  position: absolute;
+    width: 100%;
+    max-width: 1660px;
+    height: 160px;
+    left: 40px;
+    top: 29px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+*/
+background: rgba(255, 255, 255, 0.7);
+border-radius: 15px;
+width: 100%;
+}  
+.divCuadro2 {
+   
+   /* position: absolute;
+    width: 100%;
+    max-width: 1660px;
+    height: 600px;
+    left: 40px;
+    top: 220px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    
+*/
+border-radius: 15px;
+background: rgba(255, 255, 255, 0.7);
+width: 100%;
+}
+
+
+h1{
+    font-family: Candara;
+}
+
+h3{
+    font-family: Candara;
+}
