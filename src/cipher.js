@@ -4,9 +4,7 @@ const cipher = {
     let codCifrado; /*Convierte el codigo Ascii al Alfabeto normal*/
     let finCifrado = ""; /*Almacena el resultado*/
   
-    if (toEncode == "" || offSet == "") {  //valida si algun campo se encuentra vacio
-      alert("Ingresa el Texto a Cifrar o el desplazamiento");
-    }
+   
 
     for (let i = 0; i <= toEncode.length; i++) { //bucle 
       let toAscii = toEncode.charCodeAt(i);
@@ -16,17 +14,19 @@ const cipher = {
         codCifrado = String.fromCharCode(codAscii);
         finCifrado += codCifrado;
       }
-      
-      else if(toAscii >=0  && toAscii <= 64){
-        finCifrado = "";
-        alert("El texto solo debe contener 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'");
+  
+  
+     
+      else if(toAscii >=0  &&  toAscii <= 64){
+     /* alert("El texto solo debe contener 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'");*/
+        finCifrado="";
+        
         
       }
-      else if(toAscii >=123  && toAscii <= 255){
-        finCifrado = "";
-        alert("El texto solo debe contener 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'");
-        
-      }   
+     else if(toAscii >=123  && toAscii <= 255){
+       /*alert("El texto solo debe contener 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'");*/
+       finCifrado="";
+      }  
       
         }return finCifrado;
   },
@@ -35,11 +35,11 @@ const cipher = {
     let codAscii; /*Almacena el codigo Ascii despues de aplicar la formula*/
     let codDescifrado; /*Convierte el codigo Ascii al Alfabeto normal*/
     let finDescifrado = "";/*Almacena el resultado*/
-  
+  /*
     if (toDecode == "" || offSet == "") {
       alert("Ingresa el Texto a Cifrar o el desplazamiento");
 
-    }
+    }*/
     
     for (let i = 0; i <= toDecode.length; i++) {
       let toAscii = toDecode.charCodeAt(i);
@@ -51,11 +51,11 @@ const cipher = {
       } 
       else if(toAscii >=0  && toAscii <= 64){
         finDescifrado = "";
-        alert("El texto solo debe contener 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'");
+      /*  alert("El texto solo debe contener 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'");*/
       }
       else if(toAscii >=123  && toAscii <= 255){
         finDescifrado = "";
-        alert("El texto solo debe contener 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'");
+      /*  alert("El texto solo debe contener 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'");*/
       }
       
         }return finDescifrado
