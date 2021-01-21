@@ -44,15 +44,15 @@ En la actualidad, las redes sociales son los mecanismos utilizados por excelenci
 
 ## 3. Funcionalidad
 
-Para poder interacturar con la aplicacion solo debemos introducir un mensaje que contenga el alfabeto simple sin la Ñ , podremos intrudicir el texto en mayusculas y minisculas sin problema alguno ya que el resultado siempre sera devuelto en mayusculas. Para poder visualizar el proyecto ([click aquí](https://katherine-fe.github.io/LIM014-cipher/src/index.html"click aquí" ))
-
+Para poder interacturar con la aplicacion solo debemos introducir un mensaje que contenga el alfabeto simple sin la Ñ , podremos intrudicir el texto en mayusculas y minisculas sin problema alguno ya que el resultado siempre sera devuelto en mayusculas. Para poder visualizar el proyecto [click aquí](https://katherine-fe.github.io/LIM014-cipher/src/index.html)
 
 ## 4. Decisiones del diseño que se tomaron
 
-Para el diseño de los prototipos de mediana calidad se utilizo Balsamiq ([click aquí](https://balsamiq.cloud/sq88wie/putglol/r2278"click aquí" ))
+Para el diseño de los prototipos de mediana calidad se utilizo Balsamiq [click aquí](https://balsamiq.cloud/sq88wie/putglol/r2278)
+
 ![mediana-calidad](https://i.ibb.co/3YSkPtn/b.jpg)
 
-Para el diseño de los prototipos de alta calidad se utilizo Figma ([click aquí](https://www.figma.com/proto/PoulLsgAfsuQADgXsowWwS/ProyectoCifradoCesar?node-id=1%3A2&scaling=min-zoom"click aquí" ))
+Para el diseño de los prototipos de alta calidad se utilizo Figma [click aquí](https://www.figma.com/proto/PoulLsgAfsuQADgXsowWwS/ProyectoCifradoCesar?node-id=1%3A2&scaling=min-zoom)
 ![alta-calidad](https://i.ibb.co/rpV7XKB/a.jpg)
 
 ## 5.Descarga, Instalacion y Ejecucion
