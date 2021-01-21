@@ -2,7 +2,6 @@ import cipher from './cipher.js';
 
 console.log(cipher);
 
-
 document.getElementById("cifrarBtn").addEventListener("click", () => {
   const toEncode = document.getElementById("textArea1").value.toUpperCase();
   const offSet = parseInt(document.getElementById("inputOffSet").value); // Math.abs devuelve un valor absulto 
