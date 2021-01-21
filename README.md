@@ -44,7 +44,9 @@ En la actualidad, las redes sociales son los mecanismos utilizados por excelenci
 
 ## 3. Funcionalidad
 
-Para poder interacturar con la aplicacion solo debemos introducir un mensaje que contenga el alfabeto simple sin la Ñ , podremos intrudicir el texto en mayusculas y minisculas sin problema alguno ya que el resultado siempre sera devuelto en mayusculas.
+Para poder interacturar con la aplicacion solo debemos introducir un mensaje que contenga el alfabeto simple sin la Ñ , podremos intrudicir el texto en mayusculas y minisculas sin problema alguno ya que el resultado siempre sera devuelto en mayusculas. Para poder visualizar el proyecto ([click aquí](https://katherine-fe.github.io/LIM014-cipher/src/index.html"click aquí" ))
+![mediana-calidad](https://i.ibb.co/3YSkPtn/b.jpg)
+
 
 ## 4. Decisiones del diseño que se tomaron
 
