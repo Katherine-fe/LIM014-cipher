@@ -24,11 +24,9 @@ const cipher = {
         finCifrado = "";
 
       }
-     
         }
         
-        
-        
+     
         return finCifrado;
   },
     
@@ -46,7 +44,7 @@ const cipher = {
       let toAscii = toDecode.charCodeAt(i);
   
       if (toAscii >=65  && toAscii <= 90) {
-        codAscii = (toAscii + 65 - offSet) % 26 - 65;    
+        codAscii = (toAscii + 65 - offSet) % 26 + 65;    
         codDescifrado = String.fromCharCode(codAscii);
         finDescifrado += codDescifrado;
       } 
