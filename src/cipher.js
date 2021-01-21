@@ -4,7 +4,7 @@ const cipher = {
     let codCifrado; /*Convierte el codigo Ascii al Alfabeto normal*/
     let finCifrado = ""; /*Almacena el resultado*/
   
-   
+
 
     for (let i = 0; i <= toEncode.length; i++) { //bucle 
       let toAscii = toEncode.charCodeAt(i);
@@ -15,20 +15,23 @@ const cipher = {
         finCifrado += codCifrado;
       }
   
-  
      
-      else if(toAscii >=0  &&  toAscii <= 64){
-     /* alert("El texto solo debe contener 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'");*/
-        finCifrado="";
+     
+      else if(toAscii >=1  && toAscii <= 64){
+        finCifrado = "";
         
         
       }
-     else if(toAscii >=123  && toAscii <= 255){
-       /*alert("El texto solo debe contener 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'");*/
-       finCifrado="";
-      }  
-      
-        }return finCifrado;
+      else if(toAscii >=123  && toAscii <= 255){
+        finCifrado = "";
+
+      }
+     
+        }
+        
+        
+        
+        return finCifrado;
   },
     
   decode: (toDecode, offSet) => {
