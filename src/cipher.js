@@ -18,7 +18,6 @@ const cipher = {
       else if(toAscii >=1  && toAscii <= 64){
         finCifrado = "";
         
-        
       }
       else if(toAscii >=123  && toAscii <= 255){
         finCifrado = "";
