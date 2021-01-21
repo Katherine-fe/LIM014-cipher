@@ -4,8 +4,6 @@ const cipher = {
     let codCifrado; /*Convierte el codigo Ascii al Alfabeto normal*/
     let finCifrado = ""; /*Almacena el resultado*/
   
-
-
     for (let i = 0; i <= toEncode.length; i++) { //bucle 
       let toAscii = toEncode.charCodeAt(i);
   
