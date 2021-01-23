@@ -1,32 +1,15 @@
 const cipher = {
   encode: (toEncode, offSet) => {
-    let codAscii; /*Almacena el codigo Ascii despues de aplicar la formula*/
-    let codCifrado; /*Convierte el codigo Ascii al Alfabeto normal*/
+ 
+   
+    let letras = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]; // arreglo de letras
     let finCifrado = ""; /*Almacena el resultado*/
-  
-    for (let i = 0; i <= toEncode.length; i++) { //bucle 
-      let toAscii = toEncode.charCodeAt(i);
-  
-      if (toAscii >=65  && toAscii <= 90) {
-        codAscii = (toAscii - 65 + offSet) % 26 + 65;
-        codCifrado = String.fromCharCode(codAscii);
-        finCifrado += codCifrado;
-      }
-  
-     
-     
-      else if(toAscii >=1  && toAscii <= 64){
-        finCifrado = "";
-        
-      }
-      else if(toAscii >=123  && toAscii <= 255){
-        finCifrado = "";
+   
+    for (let i = 0; i <= toEncode.length; i++) { //for para definir los parámetros
+      let textoIngresado = toEncode[i];  //asignamos un variable al texto ingresado
+      let validarTextoIngresado = letras.includes(textoIngresado.toUpperCase()) // variable para validar que el texto ingresado convertivo en mayuscalas se encuentre en el arreglo
 
-      }
-        }
-        
-     
-        return finCifrado;
+
   },
     
   decode: (toDecode, offSet) => {
