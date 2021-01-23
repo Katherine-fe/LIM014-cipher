@@ -10,6 +10,21 @@ const cipher = {
       let validarTextoIngresado = letras.includes(textoIngresado.toUpperCase()) // variable para validar que el texto ingresado convertivo en mayuscalas se encuentre en el arreglo
 
 
+      if (validarTextoIngresado == true){ 
+        
+        let convertirMayu = textoIngresado.toUpperCase();
+        let posicionAscci = ((convertirMayu.charCodeAt(0)-65+offSet)%26)+65;   
+        let ascciAletra = String.fromCharCode(posicionAscci);      /* pasamos la posición ascii (número) a la letra correspondiente */
+        finCifrado += ascciAletra;
+      } 
+      else
+      {
+         finCifrado += textoIngresado;   /* Si se agrega otro tipo de caracter que no sea letra, no se convierte, solo se añade */
+      }      
+              }
+        
+     
+        return finCifrado;
   },
     
   decode: (toDecode, offSet) => {
