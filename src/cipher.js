@@ -8,11 +8,10 @@
       for (let i=0; i<toEncode.length; i++)//for para definir los parámetros
       {
         let textoIngresado  = toEncode[i];  //asignamos un variable al texto ingresado
-        let validarTextoIngresado  = letras.includes(textoIngresado .toUpperCase())//validando que el texto ingresado este en el arreglo
+        let validarTextoIngresado  = letras.includes(textoIngresado )//validando que el texto ingresado este en el arreglo
      
         if (validarTextoIngresado  == true){
-          let conveMayu = textoIngresado .toUpperCase();
-          let posicionAscci  = ((conveMayu.charCodeAt(0)-65+offSet)%26)+65;
+          let posicionAscci  = (textoIngresado.charCodeAt(0)-65+offSet)%26+65;
           let ascciAletra  = String.fromCharCode(posicionAscci);  /* pasamos la posición ascii (número) a la letra correspondiente */
           
           finCifrado  += ascciAletra ;
@@ -33,11 +32,10 @@
     for (let i=0; i<toDecode.length; i++)//for para definir los parámetros
     {
       let textoIngresado  = toDecode[i];  //asignamos un variable al texto ingresado
-      let validarTextoIngresado  = letras.includes(textoIngresado .toUpperCase())//validando que el texto ingresado este en el arreglo
+      let validarTextoIngresado  = letras.includes(textoIngresado)//validando que el texto ingresado este en el arreglo
    
       if (validarTextoIngresado  == true){
-        let conveMayu = textoIngresado .toUpperCase();
-        let posicionAscci  = ((conveMayu.charCodeAt(0)+65-offSet)%26)+65;
+        let posicionAscci  = (textoIngresado.charCodeAt(0)+65-offSet)%26+65;
         let ascciAletra  = String.fromCharCode(posicionAscci);  /* pasamos la posición ascii (número) a la letra correspondiente */
         
         finCifrado  += ascciAletra ;
