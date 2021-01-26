@@ -8,7 +8,7 @@
       for (let i=0; i<toEncode.length; i++)//for para definir los parámetros
       {
         let textoIngresado  = toEncode[i];  //asignamos un variable al texto ingresado
-        let validarTextoIngresado  = letras.includes(textoIngresado )//validando que el texto ingresado este en el arreglo
+        let validarTextoIngresado  = letras.includes(textoIngresado)//validando que el texto ingresado este en el arreglo
      
         if (validarTextoIngresado  == true){
           let posicionAscci  = (textoIngresado.charCodeAt(0)-65+offSet)%26+65;
